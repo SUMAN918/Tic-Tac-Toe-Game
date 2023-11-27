@@ -73,7 +73,7 @@ const checkGameOver = () => {
         newGameBtn.classList.add("active");
         return;
     }
-    // let's check ther is tie
+    // let's check there is tie
     let fillCount = 0;
     gameGrid.forEach((box) => {
         if(box !== "")
